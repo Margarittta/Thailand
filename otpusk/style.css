@@ -1,0 +1,107 @@
+body {
+    background:rgb(240, 255, 203);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    color:rgb(5, 6, 7);
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(9, 71, 71);
+    letter-spacing: 2px ;
+    text-decoration: underline;
+    text-shadow: 0 1px 0 #eee;
+}
+ 
+h2 {
+    font-size: x-large;
+    font-weight: bold;
+    width: 40%;
+    height: 30px;
+    border: double;
+    background: rgb(150, 204, 224);
+    color:rgb(11, 131, 105);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30%;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(10, 77, 27);
+    position: relative;
+    left: 28%;
+}
+
+ h2:hover {
+     color: rgb(226, 138, 38); /*зміна кольору при наведенні курсором*/
+ }
+
+ /*цитата*/
+q {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    float: right;
+    width: 30%;
+    height: 50px;
+    background: rgb(216, 241, 100);
+    border:ridge;
+    position: absolute;
+    margin: 15%;
+    padding: 5px;
+    color:royalblue;
+    border-radius: 15%;
+}
+ /*посилання на наступну сторінку*/
+.page {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 15%;
+    height: 30px;
+    background:darkkhaki ;
+    font-weight: bolder;
+    float: right;
+    border-radius: 25%;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(14, 55, 97);
+}
+
+h3 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.main {
+    margin: 10px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(16, 71, 71);
+}
+
+.content {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(9, 9, 26);
+    background: rgba(69, 168, 226, 0.2);
+    line-height: 20px;
+}
+
+/*факти*/
+.information {
+    width: 50%;
+    height: 20%;
+    background: rgb(223, 235, 160);
+    color: rgb(25, 84, 133);
+    margin: 20px;
+    line-height: 20px;
+    text-align:center;
+    border-radius: 20px;
+    border: ridge;
+    font-weight: 500;
+}
+
+.photo_bottom {
+    position: relative;
+}
